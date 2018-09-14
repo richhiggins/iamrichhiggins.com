@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
+import photo from "../images/rich-pic.jpg";
 
 const IndexPage = () => (
 
@@ -8,7 +9,7 @@ const IndexPage = () => (
 
     <h1>About me</h1>
 
-    <p><img src="/static/rich-pic.jpg" alt="Photograph of Rich" style={{float:'right',width:'33.3333%',margin:'0 0 1em 1em'}} />I’m Rich, a consultant web developer based in Manchester, England.</p>
+    <p><img src={photo} alt="Photograph of Rich" style={{float:'right',width:'33.3333%',margin:'0 0 1em 1em'}} />I’m Rich, a consultant web developer based in Manchester, England.</p>
 
     <p>I work with direct clients, leading agencies and large organisations helping deliver digital projects.</p>
 

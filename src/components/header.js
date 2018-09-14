@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from "../images/richies.svg";
+import logo from "../images/richies-logo.png";
 
 const Header = ({ siteTitle }) => (
   <div>
@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: '.725rem',
       }}
     >
-      <img src="/static/richies-logo.png" alt="'Richies' logo" style={{filter: 'grayscale(0%)',margin:'0',width:'111px',verticalAlign:'top'}} />
+      <img src={logo} alt="'Richies' logo" style={{filter: 'grayscale(0%)',margin:'0',width:'111px',verticalAlign:'top'}} />
     </div>
 
   </div>
