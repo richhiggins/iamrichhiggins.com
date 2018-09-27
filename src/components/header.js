@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
       }}
     >
 
-      <h1 style={{margin:'1em 0'}}>Rich Higgins /<br />Web Consultancy &amp; Development /<br /></h1>
+      <h1 style={{margin:'1em 0'}}>Rich Higgins /<br />Web Consultancy &amp; Development /</h1>
     </div>
 
   </div>

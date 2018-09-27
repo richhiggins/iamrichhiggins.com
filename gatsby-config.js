@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Rich Higgins - Web Consultancy & Development, freelance front end web developer, JAMstack, component libraries, Jekyll, Gatsby, Contentful, Fractal, performance, php, agile.',
+    title: 'Rich Higgins - Web consultancy &amp; development, freelance front end web developer, JAMstack, component libraries, Jekyll, Gatsby, Contentful, Fractal, performance, php, agile.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
