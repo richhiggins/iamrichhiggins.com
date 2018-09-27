@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Rich Higgins - Freelance front end web developer. JAMstack, component libraries, Jekyll, Gatsby, Contentful, Fractal, performance, php, agile.',
+    title: 'Rich Higgins - Web Consultancy & Development, freelance front end web developer, JAMstack, component libraries, Jekyll, Gatsby, Contentful, Fractal, performance, php, agile.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,5 +17,14 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+          name: `images`,
+          path: `${__dirname}/src/images`
+        }
+      },
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp'
   ],
 }

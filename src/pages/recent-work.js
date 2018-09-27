@@ -8,7 +8,6 @@ import idmlScript from "../images/gathercontent-idml-720p.mp4";
 
 const RecentWorkPage = () => (
   <Layout>
-    {/*<p>&lt; <Link to="/">Back</Link></p>*/}
 
     <h1>Recent work</h1>
 

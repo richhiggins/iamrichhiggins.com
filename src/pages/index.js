@@ -1,17 +1,18 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { Link, graphql } from 'gatsby'
+import Img from 'gatsby-image';
 import Layout from '../components/layout'
 import photo from "../images/rich-pic.jpg";
 
-const IndexPage = () => (
+const IndexPage = props => (
 
   <Layout>
 
     <h1>About me</h1>
 
-    <p><img src={photo} alt="Photograph of Rich" style={{float:'right',width:'33.3333%',margin:'0 0 1em 1em'}} />I’m Rich, a consultant web developer based in Manchester, England.</p>
+    <p><div style={{float:'right',width:'50%',marginLeft:'1em'}}><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
 
-    <p>I work with direct clients, leading agencies and large organisations helping deliver digital projects.</p>
+    I work with direct clients, leading agencies and large organisations helping deliver digital projects.</p>
 
     <p>On the front-end side of things I’m an advocate of the JAMstack approach to building websites, using software and services like Jekyll, GatsbyJS, Contentful, Algolia and Netlify.</p>
 
@@ -23,3 +24,15 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const pageQuery = graphql`
+  query {
+    imageOne: file(relativePath: { eq: "rich-pic.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 960) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`

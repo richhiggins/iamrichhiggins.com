@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from "../images/richies-logo.png";
+import logo from "./richies-logo.png";
 
 const Header = ({ siteTitle }) => (
   <div>
@@ -16,7 +16,8 @@ const Header = ({ siteTitle }) => (
         padding: '.725rem',
       }}
     >
-      <img src={logo} alt="'Richies' logo" style={{filter: 'grayscale(0%)',margin:'0',width:'111px',verticalAlign:'top'}} />
+
+      <h1 style={{margin:'1em 0'}}>Rich Higgins /<br />Web Consultancy &amp; Development /<br /></h1>
     </div>
 
   </div>
@@ -25,7 +26,7 @@ const Header = ({ siteTitle }) => (
         maxWidth: 960,
         padding: '1em .725rem .725rem',
       }}>
-          <ul style={{textAlign:'right',padding:0,margin:0}}>
+          <ul style={{padding:0,margin:0}}>
             <li style={{display:'inline-block'}}><Link to="/">About me</Link> |&nbsp;</li>
             <li style={{display:'inline-block'}}><Link to="/recent-work">Recent work</Link> |&nbsp;</li>
             <li style={{display:'inline-block'}}><Link to="/contact">Contact</Link></li>
