@@ -17,14 +17,14 @@ const Header = ({ siteTitle }) => (
       }}
     >
 
-      <h1 style={{margin:'1em 0'}}>Rich Higgins /<br />Web Consultancy &amp; Development /</h1>
+      <div class="h1" style={{margin:'.5em 0'}}>Rich Higgins /<br />Web Consultancy &amp; Development /</div>
     </div>
 
   </div>
           <nav style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1em .725rem .725rem',
+        padding: '1em .725rem',
       }}>
           <ul style={{padding:0,margin:0}}>
             <li style={{display:'inline-block'}}><Link to="/">About me</Link> |&nbsp;</li>

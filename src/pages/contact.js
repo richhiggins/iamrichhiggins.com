@@ -6,9 +6,9 @@ const ContactPage = () => (
 
   <Layout>
 
-  <h1>Contact</h1>
+  <h1 class="h2">Contact</h1>
 
-    <p>Drop me a line at <a href="mailto:hello@iamrichhiggins.com">hello@iamrichhiggins.com</a>.</p>
+    <p>Drop me an email at <a href="mailto:hello@iamrichhiggins.com">hello@iamrichhiggins.com</a>.</p>
 
     <p>Find me on twitter <a href="https://twitter.com/richhiggins">@richhiggins</a>.</p>
 

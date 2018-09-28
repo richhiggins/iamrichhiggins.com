@@ -8,13 +8,13 @@ const IndexPage = props => (
 
   <Layout>
 
-    <h1>About me</h1>
+    <h1 class="h2">About me</h1>
 
-    <p><div style={{float:'right',width:'50%',marginLeft:'1em'}}><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
+    <p><div style={{float:'right',width:'40%',marginLeft:'.725rem'}}><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
 
     I work with direct clients, leading agencies and large organisations helping deliver digital projects.</p>
 
-  <p>On the front-end side of things I’m an advocate of the JAMstack approach to building websites, using software and services like Jekyll, React (GatsbyJS), Contentful, Algolia and Netlify.</p>
+  <p>On the front-end side of things I’m an advocate of the JAMstack approach to building websites, using software and services like React (GatsbyJS), Contentful, Algolia and Netlify.</p>
 
     <p>I also develop in PHP if that’s your bag, and have lots of experience working with WordPress and crafting custom applications with the CakePHP framework.</p>
 
